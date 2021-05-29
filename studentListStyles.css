@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background: conic-gradient(from 0.55turn at 50% 30%, #F0F0F0, 100deg, #3f87a6, 350deg, #C0C0C0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+h1 {
+    text-align: center;
+    box-shadow: 1px 1px 4px 1px black;
+    width: 40rem;
+    padding: 1rem 0;
+    border-radius: 20px;
+    background-color: #010101A0;
+    font-weight: normal;
+    color: white;
+}
+
+
+
+button {
+    font-family: 'Roboto Slab', serif;
+    padding: 1rem;
+    background-color: #EB4034D0;
+    color: white;
+    display: flex;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 2px 1px white;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.loginButton {
+    font-size: 1rem;
+    margin: 10rem 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: #010101A0;
+    margin: 0.1rem 0;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: white;
+    transition: background-color ease-in-out 0.15s, transform ease-in-out 0.2s;
+    display: flex;
+}
+
+li:hover {
+    background-color: #FFFFFFA0;
+    color: black;
+
+}
+
+li:active {
+    transform: translate(0.5rem, 0);
+}
+
+.student_elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.logOutButton {
+    margin: 0.5rem 0.5rem 0 0;
+    align-self: flex-end;
+}
+
+.addition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    box-shadow: inset 1px 1px 4px 5px white;
+    border: solid white;
+}
+
+#upload_student {
+    margin-top: 2rem;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+
+.delete_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin-right: 1rem;
+}
